@@ -1,0 +1,1 @@
+python -m denoiser.enhance --noisy_dir './dataset/testset_20/noisy' --model_path './outputs/large_4_depth_7_l2_remix_only/best.th' --out_dir 'enhanced/testset_enhanced_remix_l2_dry_0p2' --dry 0.2 --device cuda
