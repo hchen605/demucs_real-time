@@ -34,7 +34,7 @@ def download_audio_as_wav(youtube_url, output_path):
 
 class YouTubeCaller:
     def __init__(self):
-        api_key = 'AIzaSyDQpbjOiMeLXYCvKXrZwTSCXJ5BJcKIWBY'
+        api_key = '$#$$'
         self.youtube = build('youtube', 'v3', developerKey=api_key)
 
 
